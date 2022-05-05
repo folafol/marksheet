@@ -1,0 +1,190 @@
+* {
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+@media print{
+    .float , .float *{
+        visibility: hidden;
+    }
+}
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 1.5vw;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: white;
+    padding: 2px 8px 0 8px;
+    margin: 2px 8px 0px 8px;
+}
+
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+    max-width: 100%;
+    background-color: white;
+}
+
+.header {
+    text-align: center;
+}
+
+h1.name {
+    display: block;
+    font-size: 5.0vw;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.2em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    text-align: center;
+}
+
+h3 {
+    display: block;
+    font-size: 2.0vw;
+    margin-block-start: 0.2em;
+    margin-block-end: 0.2em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.flex {
+    display: flex;
+    padding-top: 10px;
+}
+
+.flex .logo {
+    display: block;
+    flex: 0 0 33.333333%;
+    align-items: center;
+}
+
+.flex .hudai {
+    flex: 0 0 33.333333%;
+}
+
+.flex .grade {
+    flex: 0 0 33.333333%;
+}
+
+.flex .logo img {
+    height: 100%;
+    max-height: 10vw;
+    width: auto;
+}
+
+h2 {
+    display: block;
+    font-size: 1.7vw;
+    margin-block-start: 0.2em;
+    margin-block-end: 0.2em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: normal;
+    /* text-decoration: underline; */
+}
+
+table,
+td,
+th,
+td {
+    border: 1px solid #ddd;
+    text-align: center;
+    padding: 8px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 12px;
+}
+
+th,
+td {
+    padding: 2px 5px;
+}
+
+tbody.mark tr:nth-child(odd) {
+    background-color: #f9f9f9;
+}
+
+th {
+    background-color: #2191f3;
+    color: white;
+}
+
+span.dot {
+    margin-left: 20px;
+}
+
+table.none,
+table.none th,
+table.none td {
+    border: 0px;
+    text-align: left;
+    width: fit-content;
+    font-size: 1.8vw;
+}
+
+.sign img {
+    width: 9.0vw;
+    margin-top: 16px;
+    margin-block-start: 0.2em;
+    margin-block-end: 0.2em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+.sign h2 {
+    display: block;
+    font-size: 1.6vw;
+    margin-block-start: 0em;
+    margin-block-end: 0.2em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: normal;
+    padding: 0px 16px 8px 16px;
+    text-decoration: overline;
+}
+
+.footer {
+    display: flex;
+    padding-top: 10px;
+}
+
+.sign {
+    display: block;
+    align-items: center;
+    padding: 16px 16px 16px 16px;
+}
+
+.float{
+	position:fixed;
+	width:5vw;
+	height:5vw;
+	bottom:4.0vw;
+	right:4vw;
+	background-color:#2191f3;
+	color:#FFF;
+    border: none;
+    font-size:3.0vw;
+    text-align:center;
+	border-radius:100%;
+	box-shadow: 2px 2px 3px #999;
+}
+.float:focus{
+    border: none;
+}
+
+.my-float{
+	margin-top:22px;
+}
